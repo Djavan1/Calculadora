@@ -37,10 +37,7 @@ namespace calculadora
                 operacao = "SOMA";
                 lblOperacao.Text = "+";
             }
-            else
-            {
-                MessageBox.Show("Informe um valor para efetuar a Soma.");
-            }
+          
         }
 
         private void button20_Click(object sender, EventArgs e)
