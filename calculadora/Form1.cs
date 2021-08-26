@@ -125,10 +125,7 @@ namespace calculadora
             operacao = "SUB";
             lblOperacao.Text = "-";
             }
-            else
-            {
-                MessageBox.Show("Informe um valor para efetuar a Subtração.");
-            }
+           
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -140,10 +137,7 @@ namespace calculadora
             operacao = "MULT";
             lblOperacao.Text = "x";
             }
-            else
-            {
-                MessageBox.Show("Informe um valor para efetuar a Multiplicação.");
-            }
+            
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -155,10 +149,7 @@ namespace calculadora
             operacao = "DIVI";
             lblOperacao.Text = "/";
         }
-            else
-            {
-                MessageBox.Show("Informe um valor para efetuar a Divisão.");
-            }
+           
 }
 
         private void button5_Click(object sender, EventArgs e)
